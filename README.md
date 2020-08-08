@@ -25,6 +25,11 @@ $ docker-compose up -d
 https://dataflow.spring.io/docs/installation/local/manual
 
 * download server jars
+```shell script
+wget https://repo.spring.io/release/org/springframework/cloud/spring-cloud-dataflow-server/2.5.3.RELEASE/spring-cloud-dataflow-server-2.5.3.RELEASE.jar
+wget https://repo.spring.io/release/org/springframework/cloud/spring-cloud-dataflow-shell/2.5.3.RELEASE/spring-cloud-dataflow-shell-2.5.3.RELEASE.jar
+wget https://repo.spring.io/release/org/springframework/cloud/spring-cloud-skipper-server/2.5.0/spring-cloud-skipper-server-2.5.0.jar
+```
 * running command 
 
 #### 2) Start Skipper
